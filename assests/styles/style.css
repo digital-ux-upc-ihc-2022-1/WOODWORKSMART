@@ -120,3 +120,37 @@ body{
     width: 150px;
     height: 150px;
 }
+
+.section_4 p{
+    margin: 30px;
+    text-align: center;
+    color: #000000;
+}
+
+.section_4 h3{
+
+    text-align: center;
+
+}
+
+.section_5 h1{
+    color: #C8B57D;
+}
+
+h3{
+    margin: 50px;
+    color: #000000;
+    font-family: 'Cormorant', serif;
+
+}
+
+.buttons_plan{
+    background: #B8774F;
+    border-radius: 17px;
+    border:5px #B8774F solid;
+    margin: 20px;
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+    font-size: x-large;
+}
