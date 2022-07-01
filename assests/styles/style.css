@@ -154,3 +154,425 @@ h3{
     text-align: center;
     font-size: x-large;
 }
+
+.buttons_plan:hover{
+    background: #a1643e;
+    border:5px #a1643e solid;
+}
+
+.column_s2:hover{
+    border:5px #B8774F solid;
+}
+
+.plans_{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.column_s2{
+
+    background: #ffffffab;
+    border-radius: 45px;
+    border:5px #a1643e solid;
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 480px;
+    width: 300px;
+    justify-content:space-around;
+
+}
+
+.section_5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+}
+
+.column_s2 h1{
+    color: #000000;
+    text-align: center;
+    font-size: 25px;
+}
+
+.column_s2  p{
+    color: #000000;
+    text-align:center;
+    margin:10px;
+
+}
+
+
+.column_1{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.peoples{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Cormorant', serif;
+
+}
+
+
+.background_us{
+    background-color: #C8B57D;
+    border-radius: 20px;
+}
+
+.people p{
+    text-align: center;
+    padding: 15px;
+    color:#252525;
+}
+
+p{
+    padding: 8px;
+}
+.column_3{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.images_phone{
+    margin-right: 90px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+
+.images_sample_1{
+    margin: 3%;
+}
+
+.images_sample_1 .image_3{
+    height:44vw;
+    width:34vw;
+}
+
+.images_sample_2{
+    display: flex;
+    justify-content: center;
+    margin-right: 90px;
+    margin-left: 90px;
+}
+
+.images_sample_2 p{
+    font-size: 2.5vw;
+    color: #ffffff;
+
+}
+
+.section_6{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 35px;
+    justify-content:space-around;
+}
+
+
+
+
+
+
+.image_1{
+    height:5vw;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+}
+
+.image_2{
+    height:5vw;
+    width:20vw;
+    display: flex;
+    justify-content: center;
+}
+
+
+.image_3{
+    border-radius: 34px;
+
+}
+
+.images_phone .image_3{
+    height:40vw;
+}
+
+.image_1:hover{
+    height:6vw;
+    width:25vw;
+}
+
+.image_2:hover{
+    height:6vw;
+    width:25vw;
+}
+
+.imagen_networks{
+    padding: 10px;
+}
+
+.prot_{
+    margin: auto;
+}
+
+.prot_ .image_3{
+    height:30vw;
+    width: 15vw;
+}
+
+main{
+    padding:20px ;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin:3%;
+    color: #C8B57D;
+    text-align: center;
+    font-size: 3.5vw;
+    font-family: 'Inter', sans-serif;
+}
+
+h2{
+    margin: 15px;
+    color: white;
+    font-family: 'Cormorant', serif;
+    text-align: center;
+    font-size: 2.5vw;
+}
+
+.footer1{
+
+    padding: 15px;
+    background: #252525;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer2{
+    border-top: #c8b57d27 solid 1px;
+    padding: 10px;
+    background: #252525;
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.footer2 ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+
+}
+.footer2 ul li{
+
+    margin-left: 75px;
+    margin-right: 25px;
+
+}
+
+footer{
+
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+@media screen and (max-width:990px){
+
+    header .menu_button{
+        display: block;
+    }
+    header .nav_menu.active{
+        right: 0;
+    }
+
+    header .nav_menu .close-btn{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 25px;
+    }
+
+    header .nav_menu{
+        position: fixed;
+        background:#B8774F;
+        min-width: 200px;
+        height: 100vh;
+        top: 0;
+        right: -100%;
+        padding: 80px 50px;
+        transition: 0.5s;
+        transition-property: right;
+
+    }
+
+    header .menu ul li a{
+        display: block;
+        font-size: 20px;
+        margin: 20px;
+        padding: 0 15px;
+    }
+
+    .nav_menu ul{
+
+        font-size: 15px;
+        flex-direction: column;
+    }
+    .images_sample_2 {
+
+        flex-wrap: wrap;
+
+    }
+
+    .images_sample_1 {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+
+    .section_1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 47px;
+
+    }
+
+    .peoples{
+        flex-wrap: wrap;
+    }
+
+    .plans_{
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    .column_s2 {
+        margin-top: 10px;
+        height:60vw;
+        width: 30vw;
+    }
+    .image_3{
+        border-radius: 20px;
+
+    }
+
+    .nav_menu ul li a:hover{
+
+        font-size: 15px;
+
+    }
+
+    h2{
+        font-size: 3.5vw;
+    }
+
+}
+
+@media screen and (max-width:490px){
+
+
+    .section_1{
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
+    }
+
+    .section_3{
+
+        flex-direction: column;
+    }
+    .section_4{
+        display: flex;
+        flex-direction: column;
+
+
+    }
+    .nav_menu ul{
+
+        font-size: 15px;
+    }
+
+
+    .images_sample_2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    h1{
+
+        font-size: 30px;
+
+    }
+
+    h2{
+        margin: 10px;
+        font-size: 4vw;
+
+
+    }
+
+    .plans_{
+        flex-direction: column;
+    }
+
+    .column_s2 {
+
+
+        padding: 10px;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        height: 400px;
+        width: 200px;
+
+    }
+
+    .peoples{
+        flex-direction: column;
+    }
+
+    .footer1{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .footer2{
+        padding: 20px;
+    }
+
+    .image_3{
+        border-radius: 15px;
+
+    }
+
+    .prot_ .image_3{
+        height:60vw;
+        width: 31vw;
+    }
+
+    .images_sample_2 p{
+        font-size: 5vw;
+    }
+}
