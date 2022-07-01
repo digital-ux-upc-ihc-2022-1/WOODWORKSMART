@@ -576,3 +576,11 @@ footer{
         font-size: 5vw;
     }
 }
+
+.section_7{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 35px;
+    justify-content:space-around;
+}
