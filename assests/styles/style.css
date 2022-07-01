@@ -69,3 +69,26 @@ header{
     max-width: 100px;
     height: 70px;
 }
+body{
+    background-image: url(https://mlhmvq6amqed.i.optimole.com/HIId8M4.WANK~27a14/w:1280/h:853/q:auto/https://hackspirit.com/wp-content/uploads/2021/06/pexels-ono-kosuki-5973969-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+.background_back{
+    background-color: rgba(0, 0, 0, 0.562);
+    max-width: 100%;
+}
+
+.buttons_download{
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section_1{
+    display: flex;
+    margin-top: 35px;
+
+}
